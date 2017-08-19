@@ -3,8 +3,11 @@ This repo includes some useful tools in data science project from data preparati
 Due to non-disclosure agreement, this repo only publish part of the codes generated throughout this summer. 
 
 ## Transfer Analysis 
-### Cleaning 
+
+### Cleaning and Feature Extraction 
+
 ### Machine Learning Model 
+
 
 ## Travel Pattern Analysis
 
