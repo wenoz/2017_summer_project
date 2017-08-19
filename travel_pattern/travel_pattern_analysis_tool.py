@@ -23,8 +23,8 @@ def display_map_box(location_array):
     lat_lower, lon_upper = getLatLon(location_array[0])
     lat_upper, lon_lower = getLatLon(location_array[1])
 
-    app_id = '6hOQhDogstGXM1cPpsJH'
-    app_code = 'fBI5vpKhsRRyZS1-ahfHEg'
+    app_id = ''
+    app_code = ''
     location = str(lat_lower)+"%2C"+ str(lon_lower)+"%2C"+ \
                str(lat_upper)+"%2C"+ str(lon_lower)+"%2C"+ \
                str(lat_lower)+"%2C"+ str(lon_upper)+"%2C"+ \
