@@ -12,7 +12,7 @@ from locations_lib import *
 import webbrowser
 
 my_db_info = {
-    'host': '140.142.198.89',
+    'host': '',
     'user': ',
     'password': '',
     'port': ,
@@ -45,8 +45,8 @@ def display_map_box(location_array):
         
     
 def getLatLon(location):
-   app_id = '6hOQhDogstGXM1cPpsJH'
-   app_code = 'fBI5vpKhsRRyZS1-ahfHEg'
+   app_id = ''
+   app_code = ''
    location = location.replace(" ", "+")
    URL = "https://geocoder.cit.api.here.com/6.2/geocode.xml?app_id="+app_id+"&app_code="+app_code+"&searchtext="+location
    r = requests.get(url=URL)
